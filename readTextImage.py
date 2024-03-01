@@ -3,7 +3,6 @@ import cv2
 import pytesseract
 
 # Mention the installed location of Tesseract-OCR in your system
-pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR/tesseract.exe'
 
 # Read image from which text needs to be extracted
 img = cv2.imread("sample.jpg")
@@ -58,7 +57,7 @@ for cnt in contours:
 	text = pytesseract.image_to_string(cropped)
 	
 	# Appending the text into file
-	file.write(text)
+	file.write(f"{text.strip()},")
 	file.write("\n")
 	
 	# Close the file
