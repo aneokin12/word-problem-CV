@@ -7,7 +7,8 @@ This project aims to develop a Python script capable of solving word problems fr
 - Image processing using OpenCV to extract text from images.
 - Text parsing and mathematical expression generation using LangChain.
 - Solving mathematical expressions to provide answers to word problems.
-- ChatGPT wrapper for natural language interaction and user-friendly interface.
+- ChatGPT wrapper for natural language interaction
+- UI to be implemented soon
 
 ## Dependencies
 - OpenCV
