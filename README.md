@@ -1,7 +1,7 @@
 # PhotoMath Word Problem Solver
 
 ## Overview
-This project aims to develop a Python script capable of solving word problems from images using the OpenCV platform for image processing and LangChain for text parsing and solving. The core functionality involves extracting text from images, parsing it into mathematical expressions, and solving the expressions to provide the answers to the word problems.
+This project aims to develop a Python script capable of solving word problems from images using the OpenCV platform for image processing and LangChain for text parsing and solving. The core functionality involves extracting text from images, creating a LangChain prompt template to call the OpenAI API, and solving the expressions to provide the answers to the word problems.
 
 ## Features
 - Image processing using OpenCV to extract text from images.
